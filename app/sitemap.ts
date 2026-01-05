@@ -11,6 +11,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${baseUrl}/services/air-duct-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/services/hvac-cleaning`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.95,
+    },
+    {
       url: `${baseUrl}/services/residential`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -26,13 +38,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/services/deep-cleaning`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.9,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/services/move-in-out`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.9,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/locations/denver`,

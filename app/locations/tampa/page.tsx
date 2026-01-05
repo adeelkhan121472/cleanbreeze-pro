@@ -16,7 +16,7 @@ export default function Tampa() {
           <div className={styles.heroOverlay}></div>
           <div className={styles.heroContent}>
             <span className={styles.heroIcon}>🌴</span>
-            <h1 className={styles.heroTitle}>Tampa</h1>
+            <h1 className={styles.heroTitle}>Tampa, Florida</h1>
             <p className={styles.heroSubtitle}>Fresh Air for the Sunshine State</p>
           </div>
         </section>

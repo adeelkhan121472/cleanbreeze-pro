@@ -16,7 +16,7 @@ export default function Alexandria() {
           <div className={styles.heroOverlay}></div>
           <div className={styles.heroContent}>
             <span className={styles.heroIcon}>🏛️</span>
-            <h1 className={styles.heroTitle}>Alexandria</h1>
+            <h1 className={styles.heroTitle}>Alexandria, Virginia</h1>
             <p className={styles.heroSubtitle}>Historic City, Modern Clean Air Solutions</p>
           </div>
         </section>

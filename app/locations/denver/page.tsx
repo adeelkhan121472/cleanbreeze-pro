@@ -16,7 +16,7 @@ export default function Denver() {
           <div className={styles.heroOverlay}></div>
           <div className={styles.heroContent}>
             <span className={styles.heroIcon}>🏔️</span>
-            <h1 className={styles.heroTitle}>Denver</h1>
+            <h1 className={styles.heroTitle}>Denver, Colorado</h1>
             <p className={styles.heroSubtitle}>Clean Air for the Mile High City</p>
           </div>
         </section>

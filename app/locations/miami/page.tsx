@@ -16,7 +16,7 @@ export default function Miami() {
           <div className={styles.heroOverlay}></div>
           <div className={styles.heroContent}>
             <span className={styles.heroIcon}>🌊</span>
-            <h1 className={styles.heroTitle}>Miami</h1>
+            <h1 className={styles.heroTitle}>Miami, Florida</h1>
             <p className={styles.heroSubtitle}>Clean Air for the Magic City</p>
           </div>
         </section>

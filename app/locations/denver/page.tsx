@@ -3,8 +3,8 @@ import Footer from '../../components/Footer'
 import styles from '../location.module.css'
 
 export const metadata = {
-  title: 'Denver HVAC & Air Duct Cleaning Services | Clean Breeze Pro',
-  description: 'Professional HVAC and air duct cleaning services in Denver, Colorado. Residential and commercial cleaning for all Denver metro areas.',
+  title: 'Denver HVAC Cleaning [2025]: Same-Day Service | Mile High Air Quality',
+  description: 'Denver\'s altitude affecting your HVAC? Expert cleaning removes allergens & saves 20% on energy. Serving all Denver metro. Free quote in 60 seconds. NADCA certified.',
 }
 
 export default function Denver() {

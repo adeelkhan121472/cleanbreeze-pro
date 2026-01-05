@@ -3,8 +3,8 @@ import Footer from '../../components/Footer'
 import styles from '../location.module.css'
 
 export const metadata = {
-  title: 'Miami HVAC & Air Duct Cleaning Services | Clean Breeze Pro',
-  description: 'Professional HVAC and air duct cleaning services in Miami, Florida. Residential and commercial cleaning for all Miami-Dade areas.',
+  title: 'Miami HVAC Cleaning [2025]: Combat Salt Air & Mold | Magic City AC',
+  description: 'Miami\'s coastal air damaging your HVAC? Expert cleaning stops corrosion & saves 20% on energy. Serving all Miami-Dade. Free quote in 60 seconds. NADCA certified.',
 }
 
 export default function Miami() {

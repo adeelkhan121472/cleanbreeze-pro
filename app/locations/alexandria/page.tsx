@@ -3,8 +3,8 @@ import Footer from '../../components/Footer'
 import styles from '../location.module.css'
 
 export const metadata = {
-  title: 'Alexandria HVAC & Air Duct Cleaning Services | Clean Breeze Pro',
-  description: 'Professional HVAC and air duct cleaning services in Alexandria, Virginia. Residential and commercial cleaning for all Alexandria areas.',
+  title: 'Alexandria VA HVAC Cleaning [2025]: Historic Homes + Modern Tech',
+  description: 'Old Town Alexandria HVAC issues? Expert cleaning for historic & modern homes. Cut energy bills 20%. Free quote in 60 seconds. NADCA certified technicians.',
 }
 
 export default function Alexandria() {

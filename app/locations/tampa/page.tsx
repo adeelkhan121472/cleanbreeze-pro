@@ -3,8 +3,8 @@ import Footer from '../../components/Footer'
 import styles from '../location.module.css'
 
 export const metadata = {
-  title: 'Tampa HVAC & Air Duct Cleaning Services | Clean Breeze Pro',
-  description: 'Professional HVAC and air duct cleaning services in Tampa, Florida. Residential and commercial cleaning for all Tampa Bay areas.',
+  title: 'Tampa HVAC Cleaning [2025]: Fight Florida Humidity | AC Rescue',
+  description: 'Tampa Bay humidity killing your AC? Expert mold removal & duct cleaning saves 20% on energy. Serving all Tampa Bay. Same-day service. Free quote in 60 seconds.',
 }
 
 export default function Tampa() {

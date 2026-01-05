@@ -3,8 +3,8 @@ import Footer from '../../components/Footer'
 import styles from '../location.module.css'
 
 export const metadata = {
-  title: 'Houston HVAC & Air Duct Cleaning Services | Clean Breeze Pro',
-  description: 'Professional HVAC and air duct cleaning services in Houston, Texas. Residential and commercial cleaning for all Houston areas.',
+  title: 'Houston HVAC Cleaning [2025]: Beat the Heat & Humidity | AC Experts',
+  description: 'Houston\'s humidity destroying your AC? Stop mold growth & cut energy bills 20%. Serving all Houston metro. Same-day service available. Free quote in 60 seconds.',
 }
 
 export default function Houston() {

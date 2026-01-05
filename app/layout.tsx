@@ -4,12 +4,12 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://cleanbreezepro.com'),
   title: {
-    default: 'Clean Breeze Pro - Professional HVAC & Air Duct Cleaning | NADCA Certified',
+    default: 'HVAC & Air Duct Cleaning [2025]: Cut Energy Bills 20% | NADCA Certified',
     template: '%s | Clean Breeze Pro'
   },
-  description: 'Expert HVAC and air duct cleaning services across New York, London, Tokyo, and Paris. Residential & commercial HVAC maintenance, duct cleaning, coil cleaning. NADCA certified, fully insured. Improve air quality, reduce energy costs!',
+  description: 'Struggling with poor air quality? Expert HVAC cleaning removes allergens & boosts efficiency. Serving 5 US cities. Free quote in 60 seconds. NADCA certified, fully insured.',
   keywords: [
-    'HVAC cleaning',
+    'HVAC cleaning 2025',
     'air duct cleaning',
     'duct cleaning services',
     'HVAC maintenance',
@@ -21,11 +21,13 @@ export const metadata: Metadata = {
     'furnace cleaning',
     'AC cleaning',
     'ventilation cleaning',
-    'New York HVAC cleaning',
-    'London air duct cleaning',
-    'Tokyo HVAC services',
-    'Paris duct cleaning',
-    'energy efficiency HVAC'
+    'Denver HVAC cleaning',
+    'Houston air duct cleaning',
+    'Alexandria HVAC services',
+    'Tampa duct cleaning',
+    'Miami HVAC cleaning',
+    'energy efficiency HVAC',
+    'reduce energy bills'
   ],
   authors: [{ name: 'Clean Breeze Pro' }],
   creator: 'Clean Breeze Pro',
@@ -39,8 +41,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://cleanbreezepro.com',
-    title: 'Clean Breeze Pro - Professional HVAC & Air Duct Cleaning | NADCA Certified',
-    description: 'Expert HVAC and air duct cleaning services. Residential & commercial HVAC maintenance. NADCA certified, improve air quality, reduce energy costs. Serving New York, London, Tokyo, Paris.',
+    title: 'HVAC & Air Duct Cleaning [2025]: Cut Energy Bills 20% | NADCA Certified',
+    description: 'Struggling with poor air quality? Expert HVAC cleaning removes allergens & boosts efficiency. Serving Denver, Houston, Alexandria, Tampa, Miami. Free quote in 60 seconds.',
     siteName: 'Clean Breeze Pro',
     images: [
       {
@@ -53,8 +55,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Clean Breeze Pro - HVAC & Air Duct Cleaning',
-    description: 'Expert HVAC & air duct cleaning. NADCA certified. Improve air quality, reduce energy costs. Residential & commercial services.',
+    title: 'HVAC Cleaning [2025]: Cut Energy Bills 20% | NADCA Certified',
+    description: 'Struggling with poor air quality? Expert HVAC cleaning removes allergens & boosts efficiency. Free quote in 60 seconds. NADCA certified.',
     images: ['/og-image.jpg'],
     creator: '@cleanbreezepro',
   },

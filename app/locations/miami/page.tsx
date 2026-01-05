@@ -3,11 +3,11 @@ import Footer from '../../components/Footer'
 import styles from '../location.module.css'
 
 export const metadata = {
-  title: 'New York Cleaning Services | Clean Breeze Pro',
-  description: 'Professional cleaning services in New York City. Residential and commercial cleaning for Manhattan, Brooklyn, Queens, and more.',
+  title: 'Miami HVAC & Air Duct Cleaning Services | Clean Breeze Pro',
+  description: 'Professional HVAC and air duct cleaning services in Miami, Florida. Residential and commercial cleaning for all Miami-Dade areas.',
 }
 
-export default function NewYork() {
+export default function Miami() {
   return (
     <>
       <Navigation />
@@ -15,70 +15,70 @@ export default function NewYork() {
         <section className={styles.hero}>
           <div className={styles.heroOverlay}></div>
           <div className={styles.heroContent}>
-            <span className={styles.heroIcon}>🗽</span>
-            <h1 className={styles.heroTitle}>New York</h1>
-            <p className={styles.heroSubtitle}>Where Clean Meets the City That Never Sleeps</p>
+            <span className={styles.heroIcon}>🌊</span>
+            <h1 className={styles.heroTitle}>Miami</h1>
+            <p className={styles.heroSubtitle}>Clean Air for the Magic City</p>
           </div>
         </section>
 
         <section className={styles.content}>
           <div className={styles.container}>
             <div className={styles.intro}>
-              <h2 className={styles.sectionTitle}>Expert Cleaning in the Heart of NYC</h2>
+              <h2 className={styles.sectionTitle}>Expert HVAC Cleaning in Miami</h2>
               <p className={styles.lead}>
-                Clean Breeze Pro brings professional, reliable cleaning services to New York City's 
-                bustling streets. Whether you're in Manhattan, Brooklyn, Queens, or the Bronx, our 
-                expert team delivers spotless results that match the high standards of New York living.
+                Clean Breeze Pro brings professional HVAC and air duct cleaning services to Miami's
+                vibrant tropical environment. From South Beach to Coral Gables, our expert team delivers
+                clean air solutions that combat Miami's intense heat and coastal humidity for optimal indoor comfort.
               </p>
             </div>
 
             <div className={styles.features}>
               <div className={styles.featureCard}>
-                <div className={styles.featureIcon}>🏙️</div>
-                <h3>All 5 Boroughs</h3>
+                <div className={styles.featureIcon}>🌊</div>
+                <h3>Greater Miami Area</h3>
                 <p>
-                  We serve Manhattan, Brooklyn, Queens, the Bronx, and Staten Island with 
-                  the same exceptional quality and attention to detail.
+                  We serve Miami Beach, Coral Gables, Kendall, Brickell, and all Miami-Dade
+                  neighborhoods with exceptional quality service.
                 </p>
               </div>
 
               <div className={styles.featureCard}>
-                <div className={styles.featureIcon}>🚇</div>
-                <h3>Flexible Scheduling</h3>
+                <div className={styles.featureIcon}>💨</div>
+                <h3>Coastal Climate Experts</h3>
                 <p>
-                  Work around your busy NYC lifestyle with early morning, evening, and 
-                  weekend appointments available.
+                  Our technicians understand Miami's unique coastal climate, providing HVAC cleaning
+                  that prevents salt air damage and mold growth.
                 </p>
               </div>
 
               <div className={styles.featureCard}>
                 <div className={styles.featureIcon}>⚡</div>
-                <h3>Quick Response</h3>
+                <h3>Rapid Response</h3>
                 <p>
-                  Same-day and next-day service available. Perfect for last-minute cleanings 
-                  or urgent situations.
+                  Same-day and next-day service available throughout Miami-Dade.
+                  Fast response for urgent HVAC cleaning needs.
                 </p>
               </div>
             </div>
 
             <div className={styles.servicesOffered}>
-              <h2 className={styles.sectionTitle}>Services in New York</h2>
+              <h2 className={styles.sectionTitle}>HVAC Services in Miami</h2>
               <div className={styles.servicesGrid}>
                 <div className={styles.serviceItem}>
-                  <h4>🏠 Apartment Cleaning</h4>
-                  <p>Studio to penthouse, we handle all apartment sizes</p>
+                  <h4>🌬️ Air Duct Cleaning</h4>
+                  <p>Combat salt air, humidity, and allergens</p>
                 </div>
                 <div className={styles.serviceItem}>
-                  <h4>🏢 Office Cleaning</h4>
-                  <p>Keep your workspace professional and productive</p>
+                  <h4>❄️ AC System Cleaning</h4>
+                  <p>Critical for Miami's year-round cooling needs</p>
                 </div>
                 <div className={styles.serviceItem}>
-                  <h4>✨ Deep Cleaning</h4>
-                  <p>Thorough cleaning for every corner and surface</p>
+                  <h4>🏠 Residential Service</h4>
+                  <p>Complete home HVAC and air quality solutions</p>
                 </div>
                 <div className={styles.serviceItem}>
-                  <h4>📦 Move In/Out</h4>
-                  <p>Spotless spaces for moving day stress relief</p>
+                  <h4>🏢 Commercial Service</h4>
+                  <p>Professional high-rise and building HVAC cleaning</p>
                 </div>
               </div>
             </div>
@@ -88,17 +88,17 @@ export default function NewYork() {
                 <div className={styles.infoBlock}>
                   <h3>Service Areas</h3>
                   <p>
-                    Manhattan, Brooklyn, Queens,<br />
-                    Bronx, Staten Island<br />
-                    All neighborhoods covered
+                    Miami Beach, Coral Gables,<br />
+                    Kendall, Brickell, Hialeah<br />
+                    All Miami-Dade areas
                   </p>
                 </div>
 
                 <div className={styles.infoBlock}>
                   <h3>Contact Us</h3>
                   <p>
-                    Phone: (212) 555-CLEAN<br />
-                    Email: newyork@cleanbreezepro.site<br />
+                    Phone: (305) 555-CLEAN<br />
+                    Email: miami@cleanbreezepro.site<br />
                     Hours: 7 Days, 7 AM - 9 PM EST
                   </p>
                 </div>
@@ -106,8 +106,8 @@ export default function NewYork() {
                 <div className={styles.infoBlock}>
                   <h3>Quick Stats</h3>
                   <p>
-                    2,500+ Happy Clients<br />
-                    15,000+ Cleanings Done<br />
+                    2,100+ Happy Clients<br />
+                    13,500+ Systems Cleaned<br />
                     4.9★ Average Rating
                   </p>
                 </div>
@@ -115,8 +115,8 @@ export default function NewYork() {
                 <div className={styles.infoBlock}>
                   <h3>Why Choose Us</h3>
                   <p>
+                    NADCA Certified<br />
                     Licensed & Insured<br />
-                    Background-Checked Staff<br />
                     Satisfaction Guaranteed
                   </p>
                 </div>
@@ -124,10 +124,10 @@ export default function NewYork() {
             </div>
 
             <div className={styles.ctaSection}>
-              <h2>Ready for a Cleaner NYC Space?</h2>
+              <h2>Ready for Cleaner Air in Miami?</h2>
               <p>
-                Join thousands of satisfied New Yorkers who trust Clean Breeze Pro. 
-                Get your free quote today and experience the difference!
+                Join thousands of satisfied Miami residents who trust Clean Breeze Pro.
+                Get your free HVAC cleaning quote today!
               </p>
               <a href="/quote" className={styles.ctaButton}>
                 Get Your Free Quote

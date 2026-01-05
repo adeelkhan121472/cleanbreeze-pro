@@ -1,0 +1,142 @@
+import Navigation from '../../components/Navigation'
+import Footer from '../../components/Footer'
+import styles from '../location.module.css'
+
+export const metadata = {
+  title: 'Houston HVAC & Air Duct Cleaning Services | Clean Breeze Pro',
+  description: 'Professional HVAC and air duct cleaning services in Houston, Texas. Residential and commercial cleaning for all Houston areas.',
+}
+
+export default function Houston() {
+  return (
+    <>
+      <Navigation />
+      <main className={styles.main}>
+        <section className={styles.hero}>
+          <div className={styles.heroOverlay}></div>
+          <div className={styles.heroContent}>
+            <span className={styles.heroIcon}>🚀</span>
+            <h1 className={styles.heroTitle}>Houston</h1>
+            <p className={styles.heroSubtitle}>Clean Air Solutions for Space City</p>
+          </div>
+        </section>
+
+        <section className={styles.content}>
+          <div className={styles.container}>
+            <div className={styles.intro}>
+              <h2 className={styles.sectionTitle}>Expert HVAC Cleaning in Houston</h2>
+              <p className={styles.lead}>
+                Clean Breeze Pro delivers professional HVAC and air duct cleaning services throughout
+                Houston's humid climate. From downtown to the suburbs, our expert team provides clean
+                air solutions that combat Texas heat and humidity for healthier indoor environments.
+              </p>
+            </div>
+
+            <div className={styles.features}>
+              <div className={styles.featureCard}>
+                <div className={styles.featureIcon}>🚀</div>
+                <h3>Greater Houston Area</h3>
+                <p>
+                  We serve Houston, Katy, Sugar Land, The Woodlands, Pearland,
+                  and all surrounding communities with top-quality service.
+                </p>
+              </div>
+
+              <div className={styles.featureCard}>
+                <div className={styles.featureIcon}>💨</div>
+                <h3>Humidity Solutions</h3>
+                <p>
+                  Our technicians specialize in Houston's humid climate, providing HVAC cleaning
+                  that prevents mold and improves air quality year-round.
+                </p>
+              </div>
+
+              <div className={styles.featureCard}>
+                <div className={styles.featureIcon}>⚡</div>
+                <h3>Fast Service</h3>
+                <p>
+                  Same-day and next-day service available throughout Houston metro.
+                  Quick response for urgent HVAC cleaning needs.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.servicesOffered}>
+              <h2 className={styles.sectionTitle}>HVAC Services in Houston</h2>
+              <div className={styles.servicesGrid}>
+                <div className={styles.serviceItem}>
+                  <h4>🌬️ Air Duct Cleaning</h4>
+                  <p>Remove dust, allergens, and humidity-related buildup</p>
+                </div>
+                <div className={styles.serviceItem}>
+                  <h4>❄️ AC System Cleaning</h4>
+                  <p>Essential cleaning for Houston's heavy AC usage</p>
+                </div>
+                <div className={styles.serviceItem}>
+                  <h4>🏠 Residential Service</h4>
+                  <p>Complete home HVAC and air quality solutions</p>
+                </div>
+                <div className={styles.serviceItem}>
+                  <h4>🏢 Commercial Service</h4>
+                  <p>Professional office and building HVAC maintenance</p>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.infoSection}>
+              <div className={styles.infoGrid}>
+                <div className={styles.infoBlock}>
+                  <h3>Service Areas</h3>
+                  <p>
+                    Houston, Katy, Sugar Land,<br />
+                    The Woodlands, Pearland<br />
+                    All metro neighborhoods
+                  </p>
+                </div>
+
+                <div className={styles.infoBlock}>
+                  <h3>Contact Us</h3>
+                  <p>
+                    Phone: (713) 555-CLEAN<br />
+                    Email: houston@cleanbreezepro.site<br />
+                    Hours: 7 Days, 7 AM - 9 PM CST
+                  </p>
+                </div>
+
+                <div className={styles.infoBlock}>
+                  <h3>Quick Stats</h3>
+                  <p>
+                    2,400+ Happy Clients<br />
+                    15,000+ Systems Cleaned<br />
+                    4.9★ Average Rating
+                  </p>
+                </div>
+
+                <div className={styles.infoBlock}>
+                  <h3>Why Choose Us</h3>
+                  <p>
+                    NADCA Certified<br />
+                    Licensed & Insured<br />
+                    Satisfaction Guaranteed
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.ctaSection}>
+              <h2>Ready for Cleaner Air in Houston?</h2>
+              <p>
+                Join thousands of satisfied Houston residents who trust Clean Breeze Pro.
+                Get your free HVAC cleaning quote today!
+              </p>
+              <a href="/quote" className={styles.ctaButton}>
+                Get Your Free Quote
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  )
+}

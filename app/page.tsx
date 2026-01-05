@@ -35,10 +35,11 @@ const services = [
 ]
 
 const locations = [
-  { name: 'New York', icon: '🗽', slug: 'new-york', clients: '2,500+' },
-  { name: 'London', icon: '🏛️', slug: 'london', clients: '1,800+' },
-  { name: 'Tokyo', icon: '🗼', slug: 'tokyo', clients: '2,200+' },
-  { name: 'Paris', icon: '🗼', slug: 'paris', clients: '1,600+' },
+  { name: 'Denver', icon: '🏔️', slug: 'denver', clients: '1,900+' },
+  { name: 'Houston', icon: '🚀', slug: 'houston', clients: '2,400+' },
+  { name: 'Alexandria', icon: '🏛️', slug: 'alexandria', clients: '1,500+' },
+  { name: 'Tampa', icon: '🌴', slug: 'tampa', clients: '1,700+' },
+  { name: 'Miami', icon: '🌊', slug: 'miami', clients: '2,100+' },
 ]
 
 const testimonials = [
@@ -247,8 +248,8 @@ export default function Home() {
                 <div className={styles.statLabel}>Systems Cleaned</div>
               </div>
               <div className={styles.stat}>
-                <div className={styles.statNumber}>4</div>
-                <div className={styles.statLabel}>Global Cities</div>
+                <div className={styles.statNumber}>5</div>
+                <div className={styles.statLabel}>US Cities</div>
               </div>
             </div>
           </div>
@@ -321,9 +322,9 @@ export default function Home() {
         <section className={styles.locations}>
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
-              <h2 className={styles.sectionTitle}>We Serve 4 Global Cities</h2>
+              <h2 className={styles.sectionTitle}>We Serve 5 Major US Cities</h2>
               <p className={styles.sectionDescription}>
-                Find us in your city and experience world-class cleaning
+                Find us in your city and experience world-class HVAC cleaning
               </p>
             </div>
 

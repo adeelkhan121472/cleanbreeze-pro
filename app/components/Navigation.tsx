@@ -6,10 +6,11 @@ import { useState } from 'react'
 import styles from './Navigation.module.css'
 
 const locations = [
-  { name: 'New York', path: '/locations/new-york' },
-  { name: 'London', path: '/locations/london' },
-  { name: 'Tokyo', path: '/locations/tokyo' },
-  { name: 'Paris', path: '/locations/paris' },
+  { name: 'Denver', path: '/locations/denver' },
+  { name: 'Houston', path: '/locations/houston' },
+  { name: 'Alexandria', path: '/locations/alexandria' },
+  { name: 'Tampa', path: '/locations/tampa' },
+  { name: 'Miami', path: '/locations/miami' },
 ]
 
 const services = [

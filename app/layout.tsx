@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cleanbreezepro.com'),
+  metadataBase: new URL('https://cleanbreezepro.site'),
   title: {
     default: 'HVAC & Air Duct Cleaning [2025]: Cut Energy Bills 20% | NADCA Certified',
     template: '%s | Clean Breeze Pro'
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://cleanbreezepro.com',
+    url: 'https://cleanbreezepro.site',
     title: 'HVAC & Air Duct Cleaning [2025]: Cut Energy Bills 20% | NADCA Certified',
     description: 'Struggling with poor air quality? Expert HVAC cleaning removes allergens & boosts efficiency. Serving Denver, Houston, Alexandria, Tampa, Miami. Free quote in 60 seconds.',
     siteName: 'Clean Breeze Pro',
